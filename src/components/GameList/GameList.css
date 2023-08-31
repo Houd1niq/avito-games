@@ -1,0 +1,10 @@
+.game-list {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px 24px;
+  margin-bottom: 30px;
+  padding: 0 20px;
+  max-width: 1900px;
+}

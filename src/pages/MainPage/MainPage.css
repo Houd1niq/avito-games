@@ -1,0 +1,35 @@
+.main-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.filter-item-wrapper {
+  display: flex;
+  gap: 5px 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-menu {
+  gap: 24px;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .filter-item-wrapper {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 640px) {
+  .filter-item-wrapper {
+    flex-direction: row;
+  }
+
+  .filter-menu {
+    flex-direction: column;
+    gap: 12px;
+  }
+}

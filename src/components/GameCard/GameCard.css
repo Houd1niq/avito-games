@@ -1,0 +1,14 @@
+.game-card {
+  width: 270px;
+  min-height: 320px;
+}
+.genre-label {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  padding: 2px 4px;
+  border-radius: 8px;
+  background-color: #c48b17;
+  /*width: 100px;*/
+  /*height: 10px;*/
+}
